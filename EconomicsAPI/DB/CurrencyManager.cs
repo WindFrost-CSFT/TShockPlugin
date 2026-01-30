@@ -5,6 +5,7 @@ using MySql.Data.MySqlClient;
 using System.Data;
 using TShockAPI;
 using TShockAPI.DB;
+using TShockAPI.DB.Queries;
 
 namespace EconomicsAPI.DB;
 
@@ -22,7 +23,7 @@ public class CurrencyManager
             new SqlColumn("UserName", MySqlDbType.Text) { Length = 500 },
             new SqlColumn("Currency", MySqlDbType.Int64) { Length = 255 }
               );
-        var List = new SqlTableCreator(database, database.GetSqlType() == SqlType.Sqlite ? new SqliteQueryCreator() : new MysqlQueryCreator());
+        var List = new SqlTableCreator(database, database.GetSqlType() == SqlType.Sqlite ? new SqliteQueryBuilder() : new MysqlQueryBuilder());
         List.EnsureTableStructure(Skeleton);
         using (var reader = database.QueryReader("SELECT * FROM Economics"))
         {

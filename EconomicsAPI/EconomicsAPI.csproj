@@ -1,5 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<Import Project="..\template.targets" />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.2" />
+    <PackageReference Include="MySql.Data.EntityFramework" Version="9.6.0" />
+  </ItemGroup>
 
 </Project>

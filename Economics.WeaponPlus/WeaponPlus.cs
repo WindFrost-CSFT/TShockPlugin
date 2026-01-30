@@ -240,15 +240,15 @@ namespace Economics.WeaponPlus
             }
             WPlayer wPlayer = wPlayers[args.Player.Index];
             Item firstItem = args.Player.TPlayer.inventory[0];
-            WItem select = wPlayer.hasItems.Find((x) => x.id == firstItem.netID);
-            select ??= new WItem(firstItem.netID, args.Player.Name);
-            if ((firstItem == null || firstItem.IsAir || TShock.Utils.GetItemById(firstItem.type).damage <= 0 || firstItem.accessory || firstItem.netID == 0) && (args.Parameters.Count != 1 || !args.Parameters[0].Equals("load", StringComparison.OrdinalIgnoreCase)))
+            WItem select = wPlayer.hasItems.Find((x) => x.id == firstItem.type);
+            select ??= new WItem(firstItem.type, args.Player.Name);
+            if ((firstItem == null || firstItem.IsAir || TShock.Utils.GetItemById(firstItem.type).damage <= 0 || firstItem.accessory || firstItem.type == 0) && (args.Parameters.Count != 1 || !args.Parameters[0].Equals("load", StringComparison.OrdinalIgnoreCase)))
             {
                 args.Player.SendInfoMessage(LangTipsGet("请在第一个物品栏内放入武器而不是其他什么东西或空"));
             }
             else if (args.Parameters.Count == 0)
             {
-                args.Player.SendMessage($"{LangTipsGet("当前物品：")}[i:{firstItem.netID}]   {LangTipsGet("共计消耗：")}{select.allCost}\n{select.ItemMess()}", getRandColor());
+                args.Player.SendMessage($"{LangTipsGet("当前物品：")}[i:{firstItem.type}]   {LangTipsGet("共计消耗：")}{select.allCost}\n{select.ItemMess()}", getRandColor());
             }
             else if (args.Parameters.Count == 1)
             {
@@ -269,8 +269,8 @@ namespace Economics.WeaponPlus
                     }
                     long num = (long)(select.allCost * config.ResetTheWeaponReturnMultiple);
                     EconomicsAPI.Economics.CurrencyManager.AddUserCurrency(args.Player.Name, num);
-                    wPlayer.hasItems.RemoveAll((x) => x.id == firstItem.netID);
-                    DB.DeleteDB(args.Player.Name, firstItem.netID);
+                    wPlayer.hasItems.RemoveAll((x) => x.id == firstItem.type);
+                    DB.DeleteDB(args.Player.Name, firstItem.type);
                     ReplaceWeaponsInBackpack(args.Player.TPlayer, select, 1);
                     args.Player.SendMessage(LangTipsGet("完全重置成功！" + EconomicsAPI.Economics.Setting.CurrencyName + "回收：") + num, new Color(0, 255, 0));
                 }
@@ -517,7 +517,7 @@ namespace Economics.WeaponPlus
 
         public static int MyNewItem(IEntitySource source, int X, int Y, int Width, int Height, int Type, int Stack = 1, bool noBroadcast = false, int pfix = 0, bool noGrabDelay = false, bool reverseLookup = false)
         {
-            if (WorldGen.gen)
+            if (WorldGen.generatingWorld)
             {
                 return 0;
             }
@@ -611,7 +611,7 @@ namespace Economics.WeaponPlus
             int whoAmI = player.whoAmI;
             for (int i = 0; i < NetItem.InventoryIndex.Item2; i++)
             {
-                if (player.inventory[i].netID == item.id)
+                if (player.inventory[i].type == item.id)
                 {
                     int stack = player.inventory[i].stack;
                     byte prefix = player.inventory[i].prefix;

@@ -1,0 +1,268 @@
+[33mc0b1d954[m 自动更新Plugins.json [skip ci]
+[33mbfd392a4[m 更新：阻止地牢神庙插件支持醉酒了 (#362)
+[33mb23ab037[m 更新：阻止地牢神庙插件支持醉酒了
+[33m278f0084[m 自动更新Plugins.json [skip ci]
+[33m13f3b41c[m Merge pull request #361 from THEXN/master
+[33m1e6f112d[m Merge branch 'Controllerdestiny:master' into master
+[33mf9b19e31[m 修复：CNPCShop的csproj统一
+[33m13ed4d9e[m 自动更新Plugins.json [skip ci]
+[33mb9cb9c22[m Merge branch 'master' of https://github.com/Controllerdestiny/TShockPlugin
+[33m255aa047[m Update actions/checkout action to v4 (#357)
+[33m130a9850[m Update actions/setup-python action to v5 (#358)
+[33m97904ec9[m Merge branch 'master' of https://github.com/Controllerdestiny/TShockPlugin
+[33m675dd82a[m Update geekyeggo/delete-artifact action to v5 (#359)
+[33m2a95fe81[m Update mikepenz/release-changelog-builder-action action to v5 (#360)
+[33m53cb37e5[m 更新: 调整卸载方法
+[33mb146c670[m 自动更新Plugins.json [skip ci]
+[33m152220e4[m Merge pull request #354 from THEXN/master
+[33m590a0d39[m 更新：少司命改的
+[33m6557bf8b[m 修复：出生点建筑的卸载函数
+[33ma9292723[m 修复House重载配置事件
+[33mec27b911[m 更新：Lambda 表达式的卸载更改，出生点建筑那个应该还要改
+[33md5b0eb01[m 更新：补全c,d开头插件的卸载函数
+[33m8ff99055[m Update README.md
+[33mf19f2b08[m Merge branch 'Controllerdestiny:master' into master
+[33mc37adf3c[m 自动更新Plugins.json [skip ci]
+[33mb218a735[m 更新：a,b开头的所有插件的卸载函数的补全 (#353)
+[33m87767026[m 修正版本
+[33m59c4dc91[m 修复
+[33m35c7e40d[m 更新：a,b开头的所有卸载函数的补全
+[33mcf0f4183[m 自动更新Plugins.json [skip ci]
+[33m5e9298f0[m Merge pull request #350 from ACaiCat/master
+[33m816c9b94[m 更新: HelpPlus修复/death、/roll等原版命令
+[33m706ad2b6[m 自动更新Plugins.json [skip ci]
+[33m8e116841[m Merge pull request #349 from ACaiCat/master
+[33m483c6ba5[m Merge remote-tracking branch 'origin/master'
+[33m2cd8bd8a[m 添加插件: CaiCustomEmojiCommand
+[33m5e4ad7ac[m 自动更新Plugins.json [skip ci]
+[33m5e8e5b8f[m Merge pull request #348 from Controllerdestiny/main
+[33m44d60699[m 更新: 解决ecapi skill projectile 存在的性能问题
+[33m943292ad[m Merge pull request #347 from ACaiCat/master
+[33m68aa6361[m Merge branch 'master' into master
+[33m7d937077[m 文档: 添加英文版主文档
+[33m65bd5acf[m 自动更新Plugins.json [skip ci]
+[33m698ea47a[m Merge pull request #345 from ACaiCat/master
+[33mabffdc6c[m Merge remote-tracking branch 'origin/master'
+[33mec265403[m 更新: 删除奖励箱背包满格判断
+[33mee370fb2[m 更新: 删除奖励箱背包满格判断
+[33m6f1e0b71[m 自动更新Plugins.json [skip ci]
+[33mf75d9cc5[m Merge pull request #344 from Controllerdestiny/main
+[33m9a0bd31c[m 补充说明
+[33m79d65a5c[m 修复: ec.skill 与 ec.projectipe 卡服的问题
+[33m7de65b85[m 自动更新Plugins.json [skip ci]
+[33mcd0753b0[m Merge pull request #343 from ACaiCat/master
+[33m2b82f773[m Merge remote-tracking branch 'origin/master'
+[33me82c399d[m Merge remote-tracking branch 'origin/master'
+[33m5cccaa56[m Merge remote-tracking branch 'origin/master'
+[33me4a8f147[m 更新: CaiBot并行处理数据包，以防止API调用超时
+[33m0aa04bc9[m 更新: CaiBot并行处理数据包，以防止API调用超时
+[33m1d91440f[m 自动更新Plugins.json [skip ci]
+[33m0a757eb8[m Merge pull request #342 from ACaiCat/master
+[33m65dbba13[m 修复: CaiBot心跳包错误
+[33m3c654968[m 自动更新Plugins.json [skip ci]
+[33m280ead98[m Merge pull request #341 from ACaiCat/master
+[33m90c151c0[m CaiRewardChest整理代码
+[33ma65dd814[m 解决冲突
+[33mbfd248de[m Merge remote-tracking branch 'origin/master'
+[33m4ccc22cf[m 更新: CaiBot优化代码、发送心跳包、修复进度显示错误
+[33m62b5a308[m 更新README.md [skip ci]
+[33mcedac5d4[m Merge pull request #340 from ACaiCat/master
+[33ma07ccbbb[m Merge branch 'master' into master
+[33m9039a0b7[m 修复: CaiRewardChest玩家快速堆叠刷物品
+[33m4fe3adb4[m Merge pull request #338 from Controllerdestiny/main
+[33m36da6257[m 更新: Economics.Skill Projectile 优化带宽占用
+[33m2feb89e2[m 自动更新Plugins.json [skip ci]
+[33mba4bf33a[m Merge pull request #337 from Controllerdestiny/main
+[33mdaf0b883[m 版本号更新
+[33md03b9e4c[m 修复: EconomicsAPI 进度取反无效
+[33mff3a50b2[m 自动更新Plugins.json [skip ci]
+[33m50e67101[m Merge pull request #335 from Controllerdestiny/main
+[33ma90156c2[m 补更版本号
+[33m9fdcf49b[m 更新: Skill 新增敌怪buff 血量判断大于, 统一范围单位格
+[33mc7853c86[m 自动更新Plugins.json [skip ci]
+[33m8b94d73f[m Merge pull request #334 from Controllerdestiny/main
+[33m5210e254[m 补更版本号
+[33md2c55255[m 更新: Economics.Skill 添加新的ai样式
+[33mfc946d79[m 自动更新Plugins.json [skip ci]
+[33mebbaccbb[m Merge pull request #332 from Controllerdestiny/main
+[33m16d67938[m 更新: Economics.Skill 新增触发模式受击，调整AI样式锁定模式，自定义配置攻击范围。
+[33mc2b55880[m 自动更新Plugins.json [skip ci]
+[33m90389257[m Merge pull request #328 from Controllerdestiny/main
+[33me02abe4c[m Merge pull request #327 from THEXN/master
+[33mf83700e8[m 更新版本号
+[33m70a43bd6[m 更新: Economics.Skill AI样式添加AI
+[33m98324737[m Update README.md
+[33maafb5639[m 添加插件：传送请求TeleportRequest
+[33m94762c62[m 自动更新Plugins.json [skip ci]
+[33mce1a6560[m Merge pull request #326 from Controllerdestiny/main
+[33me1c54c82[m 修复: Economics.Skill AI样式射速不生效
+[33mb243cfdc[m 自动更新Plugins.json [skip ci]
+[33mf1202e94[m Merge pull request #325 from Controllerdestiny/main
+[33m5026a594[m 修复: Economics.Skill ai样式误判
+[33m913718b4[m 自动更新Plugins.json [skip ci]
+[33mbcaf0b08[m Merge pull request #324 from Controllerdestiny/main
+[33mba835f75[m 更新: Economics.Skill 添加禁止伤怪表
+[33md8dc6b34[m 自动更新Plugins.json [skip ci]
+[33me134cba1[m Merge pull request #322 from 1242509682/master
+[33m13ccdb86[m Merge pull request #323 from THEXN/master
+[33m2e60c69c[m Merge branch 'master' of https://github.com/THEXN/TShockPlugin
+[33m79415ea3[m 修复：修复了后台单独使用/history会报错的问题，现在无法在后台单独使用/history指令
+[33m50d129c4[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33mbecaebc6[m 更新：生成基础建设 v1.5.4
+[33m48a95266[m 自动更新Plugins.json [skip ci]
+[33m0031c6c0[m Merge pull request #319 from ACaiCat/master
+[33m0f952f6f[m Merge remote-tracking branch 'origin/master'
+[33mf4476b78[m 奇奇怪怪
+[33mb254736a[m Merge branch 'master' into master
+[33ma9eba7b5[m Merge remote-tracking branch 'origin/master'
+[33m216e21fc[m 添加插件: Cai奖励箱
+[33m67e489e6[m 自动更新Plugins.json [skip ci]
+[33m91e55033[m Merge pull request #318 from Controllerdestiny/main
+[33m9c62ef58[m 更改攻击间隔
+[33m711d1796[m 文档
+[33m361f03c2[m 更新: Economics.Skill 更新新的触发模式跳跃
+[33m31431488[m 自动更新Plugins.json [skip ci]
+[33m279e9c12[m Merge pull request #317 from Controllerdestiny/main
+[33mb1f39c08[m 更新: 补更版本号
+[33m851d1685[m Merge pull request #316 from Controllerdestiny/main
+[33m90fa8c7d[m Merge branch 'main' of https://github.com/Controllerdestiny/TShockPlugin
+[33m037b971c[m 更新: Economics.Skill AI样式
+[33m82a6da17[m Merge pull request #315 from Controllerdestiny/main
+[33mda3a5a44[m 文档: 补充Economics.Skill README.md
+[33ma56b87cb[m 自动更新Plugins.json [skip ci]
+[33m52f1e833[m Merge pull request #312 from Controllerdestiny/main
+[33m33e6018f[m 更新: 补更版本号
+[33mc4f080d6[m Merge pull request #311 from 1242509682/master
+[33m7dbc7c54[m 更新: Economics.Skill 添加传送玩家，无敌帧
+[33m9c7ddfd5[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33mfe3f4c7c[m 修复：生成基础建设,实现刷怪场左右无限飞镖
+[33m71d7eef8[m 自动更新Plugins.json [skip ci]
+[33m3e624310[m Merge pull request #310 from Controllerdestiny/main
+[33m1750ab57[m 更新: Economics.Skill Economics.API 移除画圆功能加入弹幕延迟，画圆由弹幕循环实现，更新API扩展函数，实现NPC锁定配置
+[33m1cdbc669[m 自动更新Plugins.json [skip ci]
+[33m522492f3[m Merge pull request #309 from 1242509682/master
+[33m45cd1c15[m 更新：生成基础建设 v1.5.3
+[33m3030672b[m 自动更新Plugins.json [skip ci]
+[33m87e54e43[m Merge pull request #308 from Controllerdestiny/main
+[33me998766e[m 更新: 补更版本号
+[33mce61e5a5[m 自动更新Plugins.json [skip ci]
+[33ma8ce7f15[m Merge pull request #307 from Controllerdestiny/main
+[33m51cfc02a[m 修复
+[33m0b67c388[m 修复: EconomicsAPI 弹幕AI与持续时间
+[33m53061603[m 自动更新Plugins.json [skip ci]
+[33m985ca10f[m Merge pull request #304 from THEXN/master
+[33mc8886f8d[m 自动更新Plugins.json [skip ci]
+[33m87dd51f0[m Merge pull request #305 from 1653638943/master
+[33m6a363c50[m Merge pull request #306 from 1242509682/master
+[33m94843fdf[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33m026dd64b[m 更新：生成基础建设 v1.5.2
+[33m51cdd14d[m 更新：修复强制pvp可以切换队伍的bug
+[33m06230ce1[m Update README.md
+[33mea147876[m 添加插件：SessionSentinel 处理长时间不发送数据包的玩家
+[33med0ee4fd[m 自动更新Plugins.json [skip ci]
+[33m1901a446[m Merge pull request #303 from Controllerdestiny/main
+[33m923946f1[m 修复: 尝试修复Respawn插件
+[33m56fa86a9[m Merge pull request #302 from Controllerdestiny/main
+[33mdb91d200[m 修复: EconomicsAPI 无法生成弹幕以极陷阱弹幕无法多敌怪照成伤害
+[33m16e1c8e5[m 自动更新Plugins.json [skip ci]
+[33madd10741[m Merge pull request #300 from Controllerdestiny/main
+[33me9245809[m 补更版本号
+[33mab86d31c[m 更新: EconomicsAPI 尝试解决所谓的AI问题与持续时间
+[33m667c8275[m Merge pull request #299 from Controllerdestiny/main
+[33m057c53d1[m 更新: ServerTool 禁止发言Emoji
+[33m5c1223b2[m 自动更新Plugins.json [skip ci]
+[33m410c5d2e[m Merge pull request #298 from 1242509682/master
+[33m47b4099e[m 更新：生成基础建设 v1.5.1
+[33m045509cc[m 自动更新Plugins.json [skip ci]
+[33m5c559d25[m Merge pull request #296 from Controllerdestiny/main
+[33mcc35c1ca[m 更新版本号
+[33ma142d32b[m 修复:Economics.Skill物品消耗项
+[33m18849f7d[m 自动更新Plugins.json [skip ci]
+[33m04685313[m Merge pull request #295 from THEXN/master
+[33md495a359[m Merge pull request #294 from 1242509682/master
+[33m2cbbf625[m Update README.md
+[33mdad65ed3[m 添加插件：CNPCShop 自定义NPC商店
+[33maaaf723b[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33me3195647[m 更新：生成基础建设 v1.5.0
+[33mbfc2911a[m 自动更新Plugins.json [skip ci]
+[33mae21a4ce[m Merge pull request #293 from 1242509682/master
+[33mc7878468[m 修复：优先级问题
+[33md06f6cb5[m 更新：补充说明
+[33mb0624638[m 更新：告示牌登录 v1.4.0
+[33me3641d40[m 自动更新Plugins.json [skip ci]
+[33mcd958d9e[m Merge pull request #291 from 1242509682/master
+[33m5d9f410f[m 更新：生成基础建设 v1.4.0
+[33m877285ca[m 自动更新Plugins.json [skip ci]
+[33m9e94a23b[m Merge pull request #290 from Controllerdestiny/main
+[33me92dc55f[m 修复: Economics.Deal 无法正常交易
+[33m56587c83[m 自动更新Plugins.json [skip ci]
+[33mc4e7d856[m Merge pull request #288 from 1242509682/master
+[33me1d3ba60[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33mae743da9[m 更新：生成基础建筑 v1.3.0
+[33mbca9fa76[m 自动更新Plugins.json [skip ci]
+[33mc0a0fab6[m Merge pull request #287 from ACaiCat/master
+[33m0e68451d[m Merge branch 'Controllerdestiny:master' into master
+[33mfe49d252[m 更新: Caibot新增下载地图和下载小地图功能
+[33m96841e6f[m Merge pull request #286 from THEXN/master
+[33m2c0ae1ce[m Update README.md
+[33mbd2a4b55[m Merge pull request #285 from ACaiCat/master
+[33me659c4a0[m 修复Python脚本
+[33m86266e09[m 工作流：修复HTML格式，尝试支持BBSTR
+[33m93e6c368[m 自动更新Plugins.json [skip ci]
+[33mf759ec37[m Merge pull request #284 from ACaiCat/master
+[33m36258d20[m 自动更新Plugins.json [skip ci]
+[33mf2a5bb8d[m Merge pull request #283 from 1242509682/master
+[33mfaaf9db7[m 更新: CaiBot代码格式化,白名单验证提示优化
+[33mce9ec16f[m 添加插件：生成基础建设 v1.1.0
+[33m29fb4510[m 添加插件：生成基础建设 v1.1.0
+[33m62b1aa01[m 自动更新Plugins.json [skip ci]
+[33ma7a70dc8[m Merge pull request #282 from THEXN/master
+[33m9e5a0968[m Update README.md
+[33m57cb380a[m 更新：ZHIPlayerManager添加是否允许特殊名字总开关
+[33m6c3e54cd[m 添加插件：ZHIPlayerManager zhi的玩家管理插件
+[33m7444cdea[m 自动更新Plugins.json [skip ci]
+[33mf4d48086[m Merge pull request #280 from Controllerdestiny/main
+[33m0f2dace1[m 修复
+[33ma772651e[m Merge branch 'main' of https://github.com/Controllerdestiny/TShockPlugin
+[33mcaf81275[m 更新: Economics.RPG 添加权限，不转换聊天格式
+[33m1091c525[m 自动更新Plugins.json [skip ci]
+[33me22c4845[m Merge pull request #277 from 1242509682/master
+[33m8209b969[m 修复：背包检测钱币不进存钱罐问题
+[33m906d5c8d[m 更新：自动储存 v1.2.4
+[33m72d92212[m 更新：自动储存 v1.2.3 修复超堆叠BUG（预设大量物品ID）
+[33m4da2fd91[m 自动更新Plugins.json [skip ci]
+[33mebcee15b[m Merge pull request #276 from 1242509682/master
+[33m335a36de[m 更新：自动存储 v1.2.2
+[33m769c76eb[m 自动更新Plugins.json [skip ci]
+[33maa8bba3c[m Merge pull request #275 from 1242509682/master
+[33mf82d892a[m 添加插件：自动储存 v1.2.1
+[33m5385c5d7[m 添加插件：自动储存 v1.2.1
+[33ma9462418[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33m53b62cd9[m 自动更新Plugins.json [skip ci]
+[33mdeb3f526[m Merge pull request #273 from pang2333/master
+[33md6ce2459[m 更新文档
+[33mc6785e7f[m 使用指令作为解决方案
+[33m56d7e7d7[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33m0335844d[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33md3516f9b[m 添加插件：自动存储 v1.0.0
+[33md012bccc[m Merge branch 'master' into master
+[33m3945572e[m 自动更新Plugins.json [skip ci]
+[33m2e753a72[m Merge pull request #272 from 1242509682/master
+[33me136dcba[m Merge branch 'Controllerdestiny:master' into master
+[33mf9ed5021[m add 设置重生点 1.0.0.1
+[33m030bbea8[m 文档：补充History插件的指令使用说明
+[33m6d9c740b[m 添加插件：击败怪物转换世界物品 v1.0.0
+[33ma5d8e806[m 更新：随机广播 v1.0.2 加入总概率（自动计算）
+[33mc9d8aba7[m 自动更新Plugins.json [skip ci]
+[33mfd6feafa[m Merge pull request #271 from 1242509682/master
+[33m08365259[m 更新：随机广播 v1.0.1 补充使用文档
+[33m26e62251[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33m0b8b869d[m 更新：随机广播 v1.0.1 加入随机取值
+[33m273dadc5[m Update README.md
+[33m9e04ff7e[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33m17840245[m 更新：随机广播 v1.0.1
+[33mea587a45[m 修复：优化代码
+[33m3015d6ef[m Update README.md
+[33m5313fc7e[m Merge branch 'master' of https://github.com/1242509682/TShockPlugin
+[33m32d9ddce[m 添加插件：硬核死亡掉生命水晶、刷新渔夫任务、切换沙尘暴、随机广播
+[33m064fc68b[m 加入插件：硬核死亡掉生命水晶、刷新渔夫任务、切换沙尘暴、随机广播

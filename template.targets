@@ -1,6 +1,6 @@
 <Project>
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -11,11 +11,29 @@
         <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
     </PropertyGroup>
 
-    <ItemGroup>
-        <PackageReference Include="TShock" Version="5.2.0">
-            <ExcludeAssets>contentFiles</ExcludeAssets>
-        </PackageReference>
-    </ItemGroup>
+<ItemGroup>
+	  <Reference Include="ModFramework">
+	    <HintPath>..\..\..\145prepare2\ModFramework.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Newtonsoft.Json">
+	    <HintPath>..\..\..\145prepare2\Newtonsoft.Json.dll</HintPath>
+	  </Reference>
+	  <Reference Include="OTAPI">
+	    <HintPath>..\..\..\145prepare2\OTAPI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="OTAPI.Runtime">
+	    <HintPath>..\..\..\145prepare2\OTAPI.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TerrariaServer">
+	    <HintPath>..\..\..\145prepare2\TerrariaServer.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TShock.Server">
+	    <HintPath>..\..\..\145prepare2\TShock.Server.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TShockAPI">
+	    <HintPath>..\..\..\145prepare2\TShockAPI.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
 
     <Target Name="githash" BeforeTargets="PreBuildEvent">
         <Exec Command="git log -1 --pretty=&quot;format:%25H&quot;" ContinueOnError="true" ConsoleToMSBuild="true">
